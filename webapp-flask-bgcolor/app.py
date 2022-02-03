@@ -56,7 +56,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--color', required=False)
   #Check for color code comand line argument
-   parcer.add_argument('--colorcode',required=False)
+   parser.add_argument('--colorcode',required=False)
     # Check for Command Line Parameters for title
     parser.add_argument('--title', required=False)
     args = parser.parse_args()
